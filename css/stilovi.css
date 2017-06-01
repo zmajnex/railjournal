@@ -1,0 +1,163 @@
+﻿h1{color:white;text-align:center;font-family: "Tangerine", serif;}
+img{text-align:center}
+
+#social> ul>li {text-align:center; display:inline-block;
+list-style-type:none; text-decoration:none}
+
+#search> i {float:right}
+
+#meni-foto  img{margin-top:10px;
+}
+/*skrol up*/
+#scroll {
+	display:none;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#b3b300;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+	
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+	
+}
+#scroll:hover {
+    background-color:#3399ff;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+	
+}
+/* slajder*/
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+/*footer*/
+
+	
+	
+
+
+.w3-row.navigacija a{
+	color: #00aaff;
+	text-decoration:none;
+}
+
+.thankyou h2{
+	
+	color:orange;
+	text-align:center;
+	
+}
+.thankyou h3{
+	
+	color:grey;
+	text-align:center;
+	
+}
+ 
+
+  .thankyou p a{
+	text-decoration:none;
+	color:blue;
+	
+}
+a.meni{
+	color:grey;
+	text-decoration:none;
+}
+h3.vest{
+	color:orange;
+}
+h3.vest a{
+	text-decoration:none;
+}
+img.naslovna{
+	width:100%;
+	padding:5px;
+	
+}
+img.naslovna:hover{
+	
+		  opacity:0.7;
+		  
+}
+/*parallax*/
+
+.parallax{
+	background-image: url("images/trains/trainspring.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	  min-height: 500px;
+	 
+	
+}
+.prvi{
+	height:300px;background-color:white; font-size:28px;
+	text-align:center;
+	
+}
+.prvi p{
+	color:grey;
+	
+}
+.parallax1{
+	background-image: url("images/trains/trainautman.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	  min-height: 500px;
+	 overflow:hidden;
+}
+	 span.naslov{
+		 font-size:28px;
+		 color:white;
+		 font-family:"Times New Roman",Times,serif;
+		border:1px solid grey;
+		 padding:5px;
+		  background: rgba(76, 175, 80, 0.3);
+	 }
+	 
+	 .parallax2{
+		 background-image: url("images/trains/trainsummer.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	  min-height: 500px;
+	 
+		 
+	 }
+	.logo {
+		color:black;
+		white-space:nowrap;
+	} 
+
+	  
+	   h1.naslov{
+		   font-family: "Comic Sans MS", cursive, sans-serif;
+		   color:white;
+	   }
+	  /*vest1*/
+	  h1.naslov_teksta{
+		  color:black;
+	  }
