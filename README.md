@@ -1,2 +1,2 @@
 # railjournal
-Landing page example
+Landing page example.One of my very early exercise. I've played wit w3css and parallax effects.
